@@ -54,17 +54,16 @@ const getAnswer = () => {
 
 // TODO: Create a function to write README file
 function writeToFile(filename, data) {
-  getAnswer()
-  .then((data) => fs.writeFile(filename, generateMarkdown(data), (err) => {
-    err ? console.error(err) : console.log('Success!')}
-  ));
+fs.writeFile(filename, data, (err) => {}
+  );
 };
 
 // writeToFile("readme.html", data);
 
 // TODO: Create a function to initialize app
 function init() {
-    writeToFile('README.md', generateMarkdown(data))
+    getAnswer()
+    .then ((data) => writeToFile('README.md', generateMarkdown(data)))
     .then(() => console.log('Successfully wrote to README.md'))
     .catch((err) => console.error(err));
 }
