@@ -70,8 +70,6 @@ function generateMarkdown(data) {
 ## Description
 
 ${data.motivation}
-${data.why}
-${data.problem}
 ${data.learning}
 
 ## Installation
