@@ -4,7 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 // TODO: Create an array of questions for user input
-const questions = ['Provide a title for your project', 'What was your motivation?', 'Why did you build this project?', 'What problem does it solve?', 'What did you learn?', 'What are the steps required to install your project?', 'Provide instructions and examples for use.', 'Choose a license.'];
+const questions = ['Provide a title for your project', 'What was your motivation?', 'What did you learn?', 'What are the steps required to install your project?', 'Provide instructions and examples for use.', 'Choose a license.'];
 
 const getAnswer = () => {
     return inquirer.prompt([
@@ -20,33 +20,23 @@ const getAnswer = () => {
     },
     {
       type: 'input',
-      name: 'why',
+      name: 'learning',
       message: questions[2],
     },
     {
       type: 'input',
-      name: 'problem',
+      name: 'steps',
       message: questions[3],
     },
     {
       type: 'input',
-      name: 'learning',
-      message: questions[4],
-    },
-    {
-      type: 'input',
-      name: 'steps',
-      message: questions[5],
-    },
-    {
-      type: 'input',
       name: 'instructions',
-      message: questions[6],
+      message: questions[4],
     },
     {
         type: 'list',
         name: 'license',
-        message: questions[7],
+        message: questions[5],
         choices: ["Apache", "IBM", "MIT", "Mozilla", "Unlicense", "None"]
       },
   ])}; 
@@ -58,7 +48,6 @@ fs.writeFile(filename, data, (err) => {}
   );
 };
 
-// writeToFile("readme.html", data);
 
 // TODO: Create a function to initialize app
 function init() {
