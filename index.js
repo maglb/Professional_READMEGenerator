@@ -57,7 +57,7 @@ const getAnswer = () => {
       {
         type: "input",
         name: "github",
-        message: questions[8],
+        message: questions[9],
       },
     ]);}; 
 
