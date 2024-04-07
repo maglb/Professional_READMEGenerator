@@ -48,4 +48,4 @@ If you have any questions about the project, please do not hesitate to contact m
 ## Link
 
 Link to video:
-https://drive.google.com/file/d/1H7CSygRTXj-qg-xmm4OXdRLPMzO7r0sN/view?usp=drive_link
+https://drive.google.com/file/d/1H7CSygRTXj-qg-xmm4OXdRLPMzO7r0sN/view?usp=sharing
