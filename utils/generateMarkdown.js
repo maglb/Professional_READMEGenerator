@@ -85,9 +85,9 @@ ${data.learning}
   
   * [Contributors](#contributors)
 
-  * [Tests](#Tests)
+  * [Tests](#tests)
 
-  * [Contact](#Contact)
+  * [Contact](#contact)
    
 ## Installation
 
