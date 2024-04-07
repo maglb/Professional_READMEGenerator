@@ -78,7 +78,7 @@ ${data.learning}
 
   * [Usage](#usage)
   
-  * [Contributors](#contributors-😃)
+  * [Contributors](#contributors)
 
   ${renderLicenseLink(data.license)}
 
@@ -90,7 +90,17 @@ ${data.steps}
 
 ${data.instructions}
 
-${renderLicense}`;
+${renderLicense}
+
+## Contributors
+
+${data.contributors}
+
+## Contact
+
+If you have any questions about the project, please do not hesitate to contact me ${
+    data.name
+  } at ${data.email}`;
 }
 
 module.exports = generateMarkdown;
