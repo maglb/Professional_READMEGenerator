@@ -96,11 +96,19 @@ ${renderLicense}
 
 ${data.contributors}
 
+## Tests
+
+  To run tests, run the following commands:
+
+  \`\`\`
+  ${data.test}
+  \`\`\`
+
 ## Contact
 
-If you have any questions about the project, please do not hesitate to contact me ${
-    data.name
-  } at ${data.email}`;
+If you have any questions about the project, please do not hesitate to contact me at ${
+    data.email
+  } or via Github https://github.com/${data.github}`;
 }
 
 module.exports = generateMarkdown;
