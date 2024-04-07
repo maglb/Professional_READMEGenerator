@@ -72,6 +72,16 @@ function generateMarkdown(data) {
 ${data.motivation}
 ${data.learning}
 
+## Table of Contents 🗒
+
+  * [Installation](#installation)
+
+  * [Usage](#usage)
+  
+  * [Contributors](#contributors-😃)
+
+  ${renderLicenseLink(data.license)}
+
 ## Installation
 
 ${data.steps}
@@ -80,7 +90,7 @@ ${data.steps}
 
 ${data.instructions}
 
-${renderLicense}`
+${renderLicense}`;
 }
 
 module.exports = generateMarkdown;
