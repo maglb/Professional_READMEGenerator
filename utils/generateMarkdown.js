@@ -100,9 +100,7 @@ ${data.contributors}
 
   To run tests, run the following commands:
 
-  \`\`\`
   ${data.test}
-  \`\`\`
 
 ## Contact
 
